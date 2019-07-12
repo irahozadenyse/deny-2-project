@@ -1,0 +1,63 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding:20px;
+    background-color:pale-green;
+    box-sizing:border-box;
+    margin-left:30px;
+    margin-right:30px;
+}
+nav{
+  margin: 0 auto;
+  padding: 10px; 
+  max-width:930;
+}
+nav>ul{
+  text-align:left;
+}
+nav>ul>li{
+  display:inline-block;
+}
+nav>ul>li>a{
+  
+  color: rgba(0 ,255, 0, 0.67);
+  display: block;
+  margin: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px 0;
+}
+nav >ul>li>a :hover{
+  box-shadow: 0 0 10px rbga(0, 0, 0, 0.67) insert 0 0 2px rgba(255, 255, 255, 0.70);
+  background-color:rgba(0, 0, 0, 0.7);
+  color:rgba(255, 255, 255, 0.6);
+}
+#Ghana{
+  height: 500px;
+  width:100px;
+  float:left;
+  margin-right:10px;
+  margin-left:10px;
+}
+#games{
+  height:100px;
+  float:left;
+  color:black;
+  width:200px;
+  justify-content:flex-end;
+  
+}
+p{
+  box-shadow:10 10 10px rgba(1, 1, 1, 0.9);
+  height: 150px;
+  width: 100px;
+}
+#play{
+  height:200px;
+  width:600px;
+  flex-direction:left-end;
+  float:right;
+}
+img{
+  width:60px;
+  height:60px;
+}
